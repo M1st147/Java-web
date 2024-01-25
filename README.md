@@ -9,9 +9,9 @@
 创建数据库
 ![image](https://github.com/Chencihai/Java-web-/assets/95452629/ec9e2755-f4c5-4a56-ba55-7b1ab04bdb8d)
 
-查询全部学生id
+Navicat
 ![image](https://github.com/Chencihai/Java-web-/assets/95452629/24d02a4e-b4dd-4f62-92a8-ab0e7c89f4f2)
-
+查询全部学生id
 ![badb651989b33f24787b960ae9e976e](https://github.com/Chencihai/Java-web-/assets/95452629/e3ef7280-7f57-423e-af9d-d9a9bc4ead6c)
 
 DAO层核心代码功能
