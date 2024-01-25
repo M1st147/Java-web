@@ -6,19 +6,21 @@
 
 ![8101ce7677fed60bb6abb163aeab44a](https://github.com/Chencihai/Java-web-/assets/95452629/a48525d4-bbe7-4860-9226-a4151a419bd5)
 
+创建数据库
+![image](https://github.com/Chencihai/Java-web-/assets/95452629/ec9e2755-f4c5-4a56-ba55-7b1ab04bdb8d)
+
 查询全部学生id
+![image](https://github.com/Chencihai/Java-web-/assets/95452629/24d02a4e-b4dd-4f62-92a8-ab0e7c89f4f2)
+
 ![badb651989b33f24787b960ae9e976e](https://github.com/Chencihai/Java-web-/assets/95452629/e3ef7280-7f57-423e-af9d-d9a9bc4ead6c)
+
+DAO层核心代码功能
 //A.java连接mysql数据库查询所有数据
 //1.导入mysql驱动jar包;
 //2. 注册驱动 javase 反射机制Class.forName()
-Class.forName("com.mysql.cj.jdbc.Driver");
 //3. 获取数据库连接
-connection = DriverManager.getConnection("jdbc:mysql://127.0.0.1:3306/mayikt?serverTimezone=UTC", "root", "root");
 //4. 获取执行者对象
-statement = connection.createStatement();
 //5. 执行sql语句并获取返回结果
-resultSet = statement.executeQuery("select  * from mayikt_student");
-ArrayList<StudentEntity> studentEntities = new ArrayList<>();
 //6. 对结果进行处理
 while (resultSet.next()) { // 如果false结束该循环
     // 获取该行数据的第一列 id
