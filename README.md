@@ -1,5 +1,5 @@
 # Java-web-
-开发的Java web项目
+JDBC的api调用进行可视化处理
 
 ![3fa0593b8044e3039351e76d780b68a](https://github.com/Chencihai/Java-web-/assets/95452629/46feea86-2e90-4620-ac5c-339a1846a7c3)
 
